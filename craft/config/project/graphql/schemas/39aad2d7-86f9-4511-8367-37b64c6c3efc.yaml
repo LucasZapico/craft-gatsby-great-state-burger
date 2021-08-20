@@ -1,0 +1,66 @@
+isPublic: false
+name: gatsby
+scope:
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.066dc17d-bd30-44a7-8c3c-547610375203:read' # About
+  - 'entrytypes.f124a7e8-7872-4014-9550-ff289e764ed3:read' # About
+  - 'sections.302f217a-712b-4e95-aaae-d676f147788c:read' # Blog
+  - 'entrytypes.95e76f85-a82d-45f9-a11b-5b94312c641f:read' # Default
+  - 'sections.c5438cde-2d06-4c8f-982d-77f00dd0eb57:read' # Catering
+  - 'entrytypes.26af9948-63b1-456e-a6ac-553f5a3ea744:read' # Catering
+  - 'sections.f50713ee-7c2c-4ee1-882f-40373efb623e:read' # Home
+  - 'entrytypes.702b10c3-ac47-4464-93cc-f7ddda7c0d56:read' # Home
+  - 'sections.53f0ffd8-c139-492a-aee7-aa9efce64503:read' # Jobs
+  - 'entrytypes.f5f578b7-ee25-4e95-a6ff-fd2040336720:read' # Jobs
+  - 'sections.1b633c96-41b8-4483-8799-e6a2ccae24de:read' # Locations
+  - 'entrytypes.0802aec5-d8a5-4840-adfe-794b62ef580e:read' # Locations
+  - 'sections.8ca45ec6-7c68-4dbb-be8e-697c487a0c55:read' # Menu
+  - 'entrytypes.8f256bea-8070-4819-a31d-98b8f74a0317:read' # Menu
+  - 'sections.b1d760de-3d49-4d40-9ffc-dc9e9f68b83d:read' # Privacy Policy
+  - 'entrytypes.c428f464-3bf1-4f91-b39c-11360884c29c:read' # Default
+  - 'sections.9d6b4418-84b8-4034-8b4b-fb4767d4ba56:read' # test-1
+  - 'entrytypes.93ffb49d-4e2b-480c-afd2-0d96e7aa8039:read' # test-1
+  - 'volumes.a959b3c5-22ed-4707-af5b-00883b180a0e:read' # Blog
+  - 'volumes.1b434650-e683-41c4-a1f9-f84bf2a58c98:read' # featured-images
+  - 'globalsets.7f592455-840c-48d2-a416-99d62d097a6b:read' # main-menu
+  - 'usergroups.everyone:read'
+  - 'categorygroups.c0efc2ac-2e91-45ea-8b95-f3f243a893d8:read' # test
+  - 'gatsby:read'
+  - 'sections.066dc17d-bd30-44a7-8c3c-547610375203:edit' # About
+  - 'entrytypes.f124a7e8-7872-4014-9550-ff289e764ed3:save' # About
+  - 'sections.302f217a-712b-4e95-aaae-d676f147788c:edit' # Blog
+  - 'entrytypes.95e76f85-a82d-45f9-a11b-5b94312c641f:edit' # Default
+  - 'entrytypes.95e76f85-a82d-45f9-a11b-5b94312c641f:create' # Default
+  - 'entrytypes.95e76f85-a82d-45f9-a11b-5b94312c641f:save' # Default
+  - 'entrytypes.95e76f85-a82d-45f9-a11b-5b94312c641f:delete' # Default
+  - 'sections.c5438cde-2d06-4c8f-982d-77f00dd0eb57:edit' # Catering
+  - 'entrytypes.26af9948-63b1-456e-a6ac-553f5a3ea744:save' # Catering
+  - 'sections.f50713ee-7c2c-4ee1-882f-40373efb623e:edit' # Home
+  - 'entrytypes.702b10c3-ac47-4464-93cc-f7ddda7c0d56:save' # Home
+  - 'sections.53f0ffd8-c139-492a-aee7-aa9efce64503:edit' # Jobs
+  - 'entrytypes.f5f578b7-ee25-4e95-a6ff-fd2040336720:save' # Jobs
+  - 'sections.1b633c96-41b8-4483-8799-e6a2ccae24de:edit' # Locations
+  - 'entrytypes.0802aec5-d8a5-4840-adfe-794b62ef580e:save' # Locations
+  - 'sections.8ca45ec6-7c68-4dbb-be8e-697c487a0c55:edit' # Menu
+  - 'entrytypes.8f256bea-8070-4819-a31d-98b8f74a0317:save' # Menu
+  - 'sections.b1d760de-3d49-4d40-9ffc-dc9e9f68b83d:edit' # Privacy Policy
+  - 'entrytypes.c428f464-3bf1-4f91-b39c-11360884c29c:edit' # Default
+  - 'entrytypes.c428f464-3bf1-4f91-b39c-11360884c29c:create' # Default
+  - 'entrytypes.c428f464-3bf1-4f91-b39c-11360884c29c:save' # Default
+  - 'entrytypes.c428f464-3bf1-4f91-b39c-11360884c29c:delete' # Default
+  - 'sections.9d6b4418-84b8-4034-8b4b-fb4767d4ba56:edit' # test-1
+  - 'entrytypes.93ffb49d-4e2b-480c-afd2-0d96e7aa8039:save' # test-1
+  - 'volumes.a959b3c5-22ed-4707-af5b-00883b180a0e:edit' # Blog
+  - 'volumes.a959b3c5-22ed-4707-af5b-00883b180a0e:create' # Blog
+  - 'volumes.a959b3c5-22ed-4707-af5b-00883b180a0e:save' # Blog
+  - 'volumes.a959b3c5-22ed-4707-af5b-00883b180a0e:delete' # Blog
+  - 'volumes.1b434650-e683-41c4-a1f9-f84bf2a58c98:edit' # featured-images
+  - 'volumes.1b434650-e683-41c4-a1f9-f84bf2a58c98:create' # featured-images
+  - 'volumes.1b434650-e683-41c4-a1f9-f84bf2a58c98:save' # featured-images
+  - 'volumes.1b434650-e683-41c4-a1f9-f84bf2a58c98:delete' # featured-images
+  - 'globalsets.7f592455-840c-48d2-a416-99d62d097a6b:edit' # main-menu
+  - 'categorygroups.c0efc2ac-2e91-45ea-8b95-f3f243a893d8:edit' # test
+  - 'categorygroups.c0efc2ac-2e91-45ea-8b95-f3f243a893d8:save' # test
+  - 'categorygroups.c0efc2ac-2e91-45ea-8b95-f3f243a893d8:delete' # test

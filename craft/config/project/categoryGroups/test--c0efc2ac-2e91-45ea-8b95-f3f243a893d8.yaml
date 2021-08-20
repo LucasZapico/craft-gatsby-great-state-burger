@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  cb544ea8-3f58-4552-a05d-a63457117d2e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: test
+name: test
+siteSettings:
+  bc661644-8fb6-4894-92fb-ba1b7b4be651: # craft-cms
+    hasUrls: true
+    template: null
+    uriFormat: 'test/{slug}'
+structure:
+  maxLevels: 1
+  uid: 901f912e-4fef-41a7-841c-5c6e125dcf4d

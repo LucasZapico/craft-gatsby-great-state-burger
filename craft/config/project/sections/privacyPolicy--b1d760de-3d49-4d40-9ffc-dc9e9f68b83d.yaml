@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: privacyPolicy
+name: 'Privacy Policy'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bc661644-8fb6-4894-92fb-ba1b7b4be651: # craft-cms
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'privacy-policy/{slug}'
+type: channel

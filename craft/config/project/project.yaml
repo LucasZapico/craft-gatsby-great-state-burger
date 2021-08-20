@@ -1,0 +1,54 @@
+dateModified: 1629473176
+email:
+  fromEmail: dev@bluemonkeymakes.com
+  fromName: craft-cms
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1b633c96-41b8-4483-8799-e6a2ccae24de: Locations # Locations
+    1b434650-e683-41c4-a1f9-f84bf2a58c98: featured-images # featured-images
+    7f6a4fb5-d6bc-4cb3-ab48-0dd5989dda8c: 'Site Description' # Site Description
+    7f592455-840c-48d2-a416-99d62d097a6b: main-menu # main-menu
+    8ca45ec6-7c68-4dbb-be8e-697c487a0c55: Menu # Menu
+    8f256bea-8070-4819-a31d-98b8f74a0317: Menu # Menu
+    8fdf0495-fa4a-4742-b84b-92de96b7ec42: 'main menu' # main menu
+    9d6b4418-84b8-4034-8b4b-fb4767d4ba56: test-1 # test-1
+    26af9948-63b1-456e-a6ac-553f5a3ea744: Catering # Catering
+    39aad2d7-86f9-4511-8367-37b64c6c3efc: gatsby # gatsby
+    53f0ffd8-c139-492a-aee7-aa9efce64503: Jobs # Jobs
+    066dc17d-bd30-44a7-8c3c-547610375203: About # About
+    68cee898-956f-4bd4-bd76-b686d303eb7c: 'Public Schema' # Public Schema
+    93ffb49d-4e2b-480c-afd2-0d96e7aa8039: test-1 # test-1
+    95e76f85-a82d-45f9-a11b-5b94312c641f: Default # Default
+    302f217a-712b-4e95-aaae-d676f147788c: Blog # Blog
+    702b10c3-ac47-4464-93cc-f7ddda7c0d56: Home # Home
+    0802aec5-d8a5-4840-adfe-794b62ef580e: Locations # Locations
+    899ec41f-a06b-4b99-b1ec-5535da4c0061: Common # Common
+    47719cc6-ab00-40eb-9b8e-9cc2e4fd0457: craft-cms # craft-cms
+    a959b3c5-22ed-4707-af5b-00883b180a0e: Blog # Blog
+    b1d760de-3d49-4d40-9ffc-dc9e9f68b83d: 'Privacy Policy' # Privacy Policy
+    bc661644-8fb6-4894-92fb-ba1b7b4be651: craft-cms # craft-cms
+    c0efc2ac-2e91-45ea-8b95-f3f243a893d8: test # test
+    c078a30a-5e1c-459a-9670-25e8932e68bd: global-fields # global-fields
+    c428f464-3bf1-4f91-b39c-11360884c29c: Default # Default
+    c5438cde-2d06-4c8f-982d-77f00dd0eb57: Catering # Catering
+    f5f578b7-ee25-4e95-a6ff-fd2040336720: Jobs # Jobs
+    f124a7e8-7872-4014-9550-ff289e764ed3: About # About
+    f50713ee-7c2c-4ee1-882f-40373efb623e: Home # Home
+plugins:
+  gatsby-helper:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: pro
+  live: true
+  name: craft-cms
+  schemaVersion: 3.7.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

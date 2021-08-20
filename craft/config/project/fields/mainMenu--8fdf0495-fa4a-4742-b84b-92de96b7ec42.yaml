@@ -1,0 +1,24 @@
+columnSuffix: cygqxalw
+contentColumnType: text
+fieldGroup: c078a30a-5e1c-459a-9670-25e8932e68bd # global-fields
+handle: mainMenu
+instructions: ''
+name: 'main menu'
+searchable: false
+settings:
+  multi: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - isMainMenu
+        -
+          - value
+          - isMainMenu
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Checkboxes

@@ -1,0 +1,10 @@
+handle: featuredImages
+hasUrls: true
+name: featured-images
+settings:
+  path: '@webroot/assets/images'
+sortOrder: 3
+titleTranslationKeyFormat: null
+titleTranslationMethod: null
+type: craft\volumes\Local
+url: '@web/assets/images'
