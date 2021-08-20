@@ -1,9 +1,31 @@
+require('dotenv').config({
+  path: '.env',
+});
+
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.yourdomain.tld',
     title: 'gatsby-craft-t1',
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'CraftAPI',
+        fieldName: 'craftAPI',
+        url: 'http://web.test/actions/graphql/api',
+        headers: {
+          Authorization: `Bearer ${process.env.CRAFT_AUTHENTICATION_TOKEN}`,
+        },
+      },
+    },
+    // {
+    //   resolve: 'gatsby-source-craftcms',
+    //   options: {
+    //     endpoint: 'http://web.test/actions/graphql/api',
+    //     token: `Bearer ${process.env.CRAFT_AUTHENTICATION_TOKEN}`,
+    //   },
+    // },
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
@@ -13,10 +35,17 @@ module.exports = {
         icon: 'src/images/icon.png',
       },
     },
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve('./src/components/base/layout.js'),
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+
     {
       resolve: 'gatsby-plugin-prettier-eslint',
       options: {
@@ -38,6 +67,15 @@ module.exports = {
             cache: true,
           },
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/, // See below to configure properly
+        },
+        __key: 'svgs',
       },
     },
     {
