@@ -2,6 +2,10 @@
 
 ## Craft Setup
 
+__This README assumes Craft set up and configuration knowledge__
+
+[More information can be found at Craft Document](https://craftcms.com/docs/3.x/installation.html#downloading-with-composer)
+
 For convenience a the root of this project is both a craft back up and a dump of the psql database associated with the project. 
 
 Restore the database with;
