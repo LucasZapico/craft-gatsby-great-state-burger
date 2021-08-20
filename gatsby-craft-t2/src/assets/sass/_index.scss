@@ -1,0 +1,93 @@
+// tailwind
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+// swiper
+@import '~swiper/swiper.scss';
+@import '~swiper/components/navigation/navigation.scss';
+@import '~swiper/components/pagination/pagination.scss';
+@import '~swiper/components/controller/controller.scss';
+
+$media-sm: '640px';
+$media-md: '768p';
+$media-lg: '1024px';
+$media-xl: '1280px';
+
+// media template
+@media screen and (min-width: $media-sm) {
+}
+@media screen and (min-width: $media-md) {
+}
+@media screen and (min-width: $media-lg) {
+}
+@media screen and (min-width: $media-xl) {
+}
+
+html,
+body {
+  // overflow-y: overlay;
+  margin: '0';
+}
+
+//
+.menu-bg {
+  background-image: url('/menu-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (min-width: $media-lg) {
+    background-image: url('/menu-background-lg.png');
+  }
+}
+
+//
+// swiper
+//
+
+// .swiper-container {
+//   margin-top: 50px;
+//   position: relative;
+//   width: 70%;
+//   margin: 0 auto;
+
+//   // overflow: visible;
+// }
+
+.swiper-button-prev {
+  // top: 50%;
+  // left: -40px;
+  // transform: translateY(-50px);
+  // position: absolute;
+  background: url('/left.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  &:after {
+    font-family: none;
+    content: '';
+  }
+  @media screen and (min-width: $media-lg) {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.swiper-button-next {
+  // top: 50%;
+  // left: -40px;
+  // transform: translateY(-50px);
+  // position: absolute;
+  height: 40px;
+  width: 40px;
+  background: url('/right.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  &:after {
+    content: '';
+    font-family: none;
+  }
+  @media screen and (min-width: $media-lg) {
+    height: 70px;
+    width: 70px;
+  }
+}
