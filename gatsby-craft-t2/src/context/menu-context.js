@@ -1,6 +1,8 @@
 import React, { createContext, useContext, useState } from 'react';
 
-export const MenuContext = createContext();
+const defaultState = false;
+
+export const MenuContext = createContext(defaultState);
 export const MenuProvider = ({ children }) => {
   const [show, setShow] = useState(false);
   return (

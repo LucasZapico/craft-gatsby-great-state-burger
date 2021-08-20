@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import MobileNav from './nav-mobile';
 import { ROUTES } from '../../../routes';
-import { useMenuValue } from '../../../context';
+import { useMenuValue } from '../../../context/index';
 
 const Nav = () => {
   const { show, setShow } = useMenuValue();
