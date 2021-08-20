@@ -24,7 +24,7 @@ const Policy = () => {
         tabIndex="0"
         className="text-xl text-center text-white  mb-3 px-2 tracking-wide"
       >
-        <LinkOne to="/credits">site credits</LinkOne>
+        <LinkOne to="/">site credits</LinkOne>
       </div>
     </div>
   );
